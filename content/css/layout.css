@@ -66,3 +66,105 @@ img {
     position: absolute;
     top: 22px; left: 10px;
 }
+
+#by-sa {
+    width: 88px;
+    height: 31px;
+    padding: 0 0 4px 0;
+    background: url("../images/88x31_002.png") no-repeat scroll;
+}
+
+#by-nc-nd {
+    width: 88px;
+    height: 31px;
+    padding: 0 0 4px 0;
+    background: url("../images/88x31.png") no-repeat scroll;
+}
+
+
+#footer {
+    background: #d7d7d7 url("../images/mp-bg-footer.png") no-repeat center top;
+    clear:both;
+    font-size:11px;
+    overflow:hidden;
+    width:auto;
+    margin: 0;
+    padding: 30px 0;
+    min-height: 300px;
+}
+
+#footer-hr {
+    width: 100%;
+    height: 20px;
+    margin: 0; padding: 0;
+    background: url(../images/footer-hr.png) repeat-x bottom center;
+}
+
+#footer td {
+    vertical-align: middle;
+}
+
+#footer td.text {
+    padding: 0 15px;
+}
+
+#footer td.text p {
+    margin: 0;
+    padding: 0;
+}
+
+#footer-menu {
+    width: 920px;
+    margin: 10px auto 0;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+#footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    left: auto;
+    margin-left: 15px;
+}
+
+#footer-menu li {
+    margin: 0 8px 0 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+    display: inline;
+    font-weight: bold;
+    background: none;
+    position: relative;
+    width: 140px;
+    color: #666;
+}
+
+#footer-menu li ul {
+    margin: 0.5em 0 2em 0;
+}
+
+#footer-menu ul li {
+    float: none;
+    font-size: 85%;
+    padding: 0 0 0.4em 0;
+    margin: 0;
+    font-weight: normal;
+    display: block;
+    width: auto;
+}
+
+#footer-menu li a {
+    font-weight: bold;
+    color: #666;
+}
+
+#footer-menu li ul a {
+    font-weight: normal;
+}
+
+#footer-menu li a:hover {
+    color: #666;
+    text-decoration: underline;
+}

@@ -27,6 +27,17 @@ pre {
     border-color: #ddd;
 }
 
+#footer {
+    color: #a1bfe2;
+    font-size: 0.85em;
+    line-height: 1.3em;
+}
+
+#footer a {
+    font-weight: normal;
+    color: #6093ce;
+}
+
 h1 {
     color: #274e80;
     font-weight: normal;
