@@ -1,0 +1,84 @@
+body {
+    font: 1em "Corbel", sans-serif;
+}
+
+a {
+    color: #0d71c0;
+    text-decoration: none;
+    /*font-weight: bold; */
+}
+
+a:hover {
+    color: #274e80;
+}
+
+tt,
+code,
+pre {
+    font: 1em "Consolas", "Courier", "DejaVu Sans Mono", monospace;
+    background: #f8f8f8;
+    border: 1px solid #eee;
+}
+
+pre {
+    padding: 5px;
+    margin: 1em;
+    border-width: 1px 1px 1px 5px;
+    border-color: #ddd;
+}
+
+h1 {
+    color: #274e80;
+    font-weight: normal;
+    font-size: 1.8em;
+    margin-top: 1.25em;
+    border-bottom: 1px solid #99b9e1;
+}
+
+h2 {
+    color: #19194b;
+    font-weight: normal;
+    font-size: 1.4em;
+    margin-top: 0.25em;
+    line-height: 1.5em;
+}
+
+h3 {
+    color: #274e80;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+h5 {
+    margin-bottom: .25em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    margin: 0 0 0 .5em;
+    padding: 0;
+}
+
+li {
+    margin-left: 1.5em;
+}
+
+/* Quotes List */
+
+dl dt {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+dl dd {
+    margin: 0;
+    font-style: italic;
+}
+
+blockquote {
+    font-style: italic;
+}

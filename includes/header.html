@@ -3,5 +3,35 @@
     <head>
         <meta charset="utf-8">
         <title>{{ item.title }} - Mono</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/screen.css" />
     </head>
     <body>
+        <div id="header">
+            <div class="wrapper">
+                <h1>Mono</h1>
+                <a href="http://mono-project.com/" title="Mono"><div id="mono-logo"></div></a>
+                <ul>
+                    <li><a href="http://mono-project.com/Main_Page">Home</a></li>
+                    <li><a href="http://www.go-mono.com/mono-downloads/download.html">Download</a></li>
+                    <li class="current_page_item"><a href="http://mono-project.com/Start">Start</a></li>
+                    <li><a href="http://www.mono-project.com/news/">News</a></li>
+                    <li><a href="http://mono-project.com/Contributing">Contribute</a></li>
+                    <li><a href="http://mono-project.com/Community">Community</a></li>
+                    <li><a href="http://xamarin.com/monotouch">iOS</a></li>
+                    <li><a href="http://android.xamarin.com/">android</a></li>
+                    <li><a href="http://mono-project.com/Support">Support</a></li>
+                </ul>
+                <div id="search">
+                    <form method="get" action="http://www.google.com/search?">
+                        <div>
+                            <input type="hidden" value="www.mono-project.com" id="sitesearch" name="sitesearch" />
+                            <input type="hidden" value="www.mono-project.com" id="domains" name="domains" />
+                            <input class="text" name="q" id="q" type="text" value="Search Mono" 
+                                onblur="if (this.value == '') this.value='Search Mono';" 
+                                onfocus="if (this.value == 'Search Mono') this.value='';" />
+                            <input class="button" type="submit" value="Go" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>

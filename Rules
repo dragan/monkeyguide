@@ -11,12 +11,20 @@
 //   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 //   because “*” matches zero or more characters.
 
+Compile("/css/*/", context => {
+  // don't filter stylesheets
+});
+
 Compile("*", (context) => {
   if (context.Item.IsBinary) {
     // don’t filter binary items
   } else {
     context.WithFilter("markdown").WithLayout("default");
   }
+});
+
+Route("/css/*/", (context) => {
+  return context.Item.Identifier.Chop() + context.Item.Meta["extension"];
 });
 
 Route("*", (context) => {
