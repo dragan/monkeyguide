@@ -24,13 +24,13 @@ Compile("*", (context) => {
 });
 
 Route("/css/*/", (context) => {
-  return context.Item.Identifier.Chop() + context.Item.Meta["extension"];
+  return context.Item.Identifier.Chop() + context.Item.Meta.Extension;
 });
 
 Route("*", (context) => {
   if (context.Item.IsBinary) {
     // Write item with identifier /foo/ to /foo.ext
-    return context.Item.Identifier.Chop() + context.Item.Meta["extension"];
+    return context.Item.Identifier.Chop() + context.Item.Meta.Extension;
   } else {
     // Write item with identifier /foo/ to /foo/index.html
     return context.Item.Identifier + "index.html";
